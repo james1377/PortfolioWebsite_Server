@@ -1,0 +1,350 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.dropdown {
+    cursor:pointer;
+}
+
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 50px 0;
+}
+
+.section-colored {
+    background-color: #e1e1e1;
+    /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+.sidebar ul {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+.navbar-hamburger-icon {
+    margin-left: 10rem;
+}
+
+.mynavbar-positioning {
+    margin-left: 11rem; 
+    margin-right: 70rem;
+}
+
+.mysubnavbar-positioning {
+    margin-left: 0;
+}
+
+/* Home page Video */
+.container{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen-underconstruction{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /*overflow: hidden;*/
+}
+
+.fullscreen-video-wrap video {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header-overlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    background: #225470;
+    opacity: 0.55;
+}
+
+.header-content{
+ 
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    z-index:2;
+    color: white;
+    
+}
+
+.header-nav-logo {
+    position: absolute; 
+    max-height: 3rem;
+    height: auto;
+    vertical-align: center;
+    top: .3rem;
+    left: 1vh;
+}
+
+.v-header{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    color:#fff;
+  }
+
+.header-content h1{
+    font-size:50px;
+    margin-bottom:0;
+}
+
+.header-content p{
+    font-size:1.5rem;
+    display:block;
+    padding-bottom:2rem;
+}
+
+.in-middle {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-primary1 {
+    color: rgb(115,178,201);
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+.header-primary2 {
+    color: #000;
+    text-shadow: 2px 0 2px rgb(115,178,201), -2px 0 2px rgb(115,178,201), 0 2px 2px rgb(115,178,201), 0 -2px 2px rgb(115,178,201), 1px 1px 2px rgb(115,178,201), -1px -1px 2px rgb(115,178,201), 1px -1px 2px rgb(115,178,201), -1px 1px 2px rgb(115,178,201);
+}
+
+.header-primary-line {
+    color: #000;
+}
+
+.header-primary1-logoonly {
+    max-height: 5rem;
+    height: auto;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background: #34b3a0;
+    color: #fff;
+    font-size: 1.2 rem;
+    text-decoration: none;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.note-beingupdgradetoang6 {
+    font-size: .8rem;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+    margin-top:5px;
+    height: 100%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+    margin-bottom: 45px;
+}
+
+.tooltip-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link a:hover {
+    color: #3b5998;
+}
+
+.linkedin-link a:hover {
+    color: #007fb1;
+}
+
+.twitter-link a:hover {
+    color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+    color: #d14836;
+}
+
+/* Built with */
+.builtwith-logo {
+    max-height: 2rem;
+    height: auto;
+    margin-right: .2rem;
+    margin-bottom: .3rem;
+}
+
+/* Demo images */
+.demo1 {
+    max-height: 10rem;
+    height: auto;
+    margin-right: .5rem;
+    margin-bottom: 2rem;
+}
+
+/* Grey shell background */
+.grey-shell {
+    padding: 10px 60px 0 60px;
+    margin: 0 0 10px 10px;
+    
+    line-height: 1.428571429;
+
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.grey-shell1 {
+    padding: 10px 30px 0 30px;
+    margin: 0 0 10px 10px;
+    
+    line-height: 1.428571429;
+
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+
+/* Service Page Styles */
+.service-icon {
+    font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+    font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+    font-size: 4em;
+}
+
+.price-cents {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.price-month {
+    font-size: 35%;
+    font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+    margin: 0px 0;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    background-color:#6c757d;
+}
+
+ .footer-link {
+     color: lightgrey;
+     text-decoration: none;
+ }
+
+ .footer-link:hover {
+    color: white;
+    text-decoration: none;
+ }
+
+
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
+}

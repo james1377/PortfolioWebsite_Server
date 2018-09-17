@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top" style="z-index: 4; position: fixed; top: 0; left: 0; background-color: black; width: 100rem;" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+            <a class="navbar-brand" ng-click="gotoAnchor(0)" >
+                <img src="images/header_logo.gif" class="header-nav-logo" alt="JG-WebDevelopment" />
+            </a>
+            <button type="button" class="navbar-toggler navbar-dark bg-dark navbar-hamburger-icon" data-toggle="collapse" data-target="#myNavbar"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>  
+        </div> 
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-dark bg-dark mynavbar-positioning"  id="myNavbar">
+            <ul class="navbar-nav" > 
+
+                <li class="nav-item"><a class="nav-link" href="#/about">About</a>
+                </li>
+                <!-- <li  class="nav-item"><a class="nav-link" href="#/demos">Demos</a>
+                </li> -->
+                <li class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">Demos<b class="caret"></b></a>
+                        <ul class="dropdown-menu navbar-dark bg-dark mysubnavbar-positioning" id="mysubnavbar">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">CSS Grid</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Login Authentication</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Advanced Grid</a>
+                            </li>
+                        </ul>
+                </li>
+                <li  class="nav-item"><a class="nav-link" href="#/contact">Contact</a>
+                </li>
+            </ul>
+        </div> 
+        <!-- /.navbar-collapse -->
+    </div> 
+    <!-- /.container -->
+</nav>
