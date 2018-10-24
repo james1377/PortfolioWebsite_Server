@@ -121,14 +121,12 @@ body {
 }
 
 .header-content{
- 
     position: relative;
     top: 0;
     left: 0;
     
     z-index:2;
     color: white;
-    
 }
 
 .header-nav-logo {
@@ -143,27 +141,34 @@ body {
 .v-header{
     height:100vh;
     display:flex;
-    align-items:center;
+    align-items: center;
     color:#fff;
   }
 
 .header-content h1{
-    font-size:50px;
+    /* font-size:30px; */
     margin-bottom:0;
+    font-size:5.5vh;
+}
+
+.header-content h2{
+    font-size:3.5vh;
 }
 
 .header-content p{
-    font-size:1.5rem;
+    /* font-size:1.5rem; */
+    font-size:3.5vh;
     display:block;
     padding-bottom:2rem;
 }
 
 .in-middle {
     position: absolute;
-    top: 30%;
-    transform: translateY(-30%);
+    top: 20%;
+    /*transform: translateY(-30%);*/
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 .header-primary1 {
